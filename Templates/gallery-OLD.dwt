@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Società Agricola - Produzione e Vendita Olio Extravergine di Oliva - Villa Humbourg - Certaldo - Firenze</title>
+<!-- TemplateEndEditable -->
+<meta name="description" content="Ci troviamo in Toscana, nel cuore d´Italia, nella parte meridionale della provincia di Firenze, in mezzo ad un paesaggio unico in Europa, fra dolci colline, coltivate dall´uomo da millenni, che offrono per posizione geografica, clima e natura del terreno condizioni ottimali  per la coltivazione dell’olivo." />
+<meta name="keywords" content="Villa Humbourg, Villa Humbourg società agricola, villa humbourg vendita olio, olio extravergine di oliva, società agricola firenze, coltivazione olio, olio d'oliva, produzione olio in toscano, vendita olio firenze, shop online olio extravergine di oliva, vendita olio toscano, shop on line olio, Coreggiolo, Frantoio, Pendolino, Leccino, olio extravergine di oliva Toscano, olio certificato, Indicazione Geografica Protetta, Consorzio Toscano, Consorzio Toscano per la tutela dell´olio extravergine, olio d'oliva certificato, produzione olio colline di firenze" />
+
+<meta name="author" content="S.G. Consulting www.sgconsulting.it" />
+<meta name="content engine" content="S.G. Consulting" />
+<meta name="design" content="S.G. Consulting www.sgconsulting.it" />
+
+<link rel="stylesheet" href="../js/css/supersized.css" type="text/css" media="screen" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+
+<link rel="stylesheet" href="../js/css/jquery.sg.gallery.css">
+<script type="text/javascript" src="../js/jquery.sg.gallery.js"></script>
+  <script type="text/javascript">
+    $(window).load(function() {
+      $('#gallery1').gallery({fullScreen:true});
+    });
+  </script>
+
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="container"><!-- TemplateBeginEditable name="testo" -->testo<!-- TemplateEndEditable -->
+
+  <div class="clearer"></div>  
+</div>
+
+</body>
+</html>

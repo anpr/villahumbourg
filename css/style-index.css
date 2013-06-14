@@ -1,0 +1,505 @@
+@charset "UTF-8";
+/* CSS villapipistrelli.com */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	margin:0;
+	padding:0;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	background-color: #FFF;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+/* Links */
+a {
+	text-decoration: underline;
+	color: #CCC;
+}
+a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+/* Headers */
+h1, h2, h3 {
+	padding: 0px 10px 5px 0px;
+	margin: 0;
+	font-weight: normal;
+}
+h1 {
+	font-size: 200%;
+	font-weight: normal;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 200%;
+	color: #FFF;
+}
+h3 {
+	font-size: 130%;
+	font-weight: normal;
+	color: #FFF;
+}
+h3 a {
+	color: #FFF;
+}
+h4 {
+	font-size: 100%;
+	font-weight: normal;
+	color: #999;
+}
+p, dl {
+	margin: 0;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+ul, ol {
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 3px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+ul {
+	list-style-image: none;
+	list-style-type: disc;
+	list-style-position: inset;
+	padding-left: 20px;
+}
+
+dt {
+  font-weight: bold;
+  color: #895F30;
+}
+dd {
+  padding-left: 25px; 
+}
+
+/* Images */
+img { 
+	border:none;
+}
+/* end - form */
+
+.clearer {
+	clear: both;
+	font-size: 0px;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+	text-align: right;
+}
+
+
+/* container */
+#container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+#content {
+	width: 59%;
+	float:left;
+	color:#FFF;
+	text-align:left;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 10%;
+	padding-right: 5%;
+	padding-bottom: 0;
+	padding-left: 5%;
+}
+/* index */
+
+#fascia {
+	width: 100%;
+	background:#000;
+	text-align: center;
+	margin-top: 0%;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 0;
+	position: relative;
+}
+#fascia .logo {
+	position: relative;
+	width: auto;
+	height: 25%;
+	line-height: 25%;
+	float: left;
+	text-align: left;
+}
+
+#fascia .italiano a {
+	clear: right;
+	float: left;
+	color: #333;
+	position: relative;
+	width: 20%;
+	height: 25%;
+	line-height: 88px;
+	font-size:85%;
+	color: #666;
+	text-decoration:none;
+	margin-top: auto;
+	margin-bottom: auto;
+	}
+
+#fascia .italiano a:hover {
+	color: #333;
+	text-decoration:underline;
+}
+#fascia .inglese {
+	float: left;
+	height: 25%;
+	line-height: 88px;
+	color: #666;
+	width: auto;
+	position: relative;
+	text-align: left;
+	margin-left: 40px;
+	font-size: 80%;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#fascia .inglese a {
+	line-height: 88px;
+	color: #666;
+	text-decoration:none;
+	display: inline;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#fascia .inglese a:hover {
+	color: #333;
+	text-decoration:none;
+}
+
+#fascia .tedesco {
+	float: left;
+	height: 25%;
+	line-height: 88px;
+	color: #464646;
+	width: auto;
+	position: relative;
+	text-align: left;
+	margin-left: 20px;
+	font-size: 75%;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#fascia .tedesco a {
+	line-height: 88px;
+	color: #666;
+	text-decoration:none;
+	display: inline;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#fascia .tedesco a:hover {
+	color: #333;
+	text-decoration:none;
+}
+
+
+
+#notizie {
+	width: 20%;
+	text-align: center;
+	padding-top: 12%;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 0;
+	bottom: 3%;
+	font-size: 80%;
+	background-color: #000;
+	color: #999;
+	height: auto;
+	position: absolute;
+	margin: 0px;
+	top: 7%;
+}
+#notizie .col1 {
+	width: 30%;
+	text-align: left;
+	padding: 0px;
+	float:left;
+	line-height: normal;
+	margin-top: 1%;
+	margin-right: 2%;
+	margin-bottom: 1%;
+	margin-left: 2%;
+}
+#notizie .col2 {
+	width: 30%;
+	text-align: left;
+	padding: 0px;
+	float:left;
+	line-height: normal;
+	margin-top: 1%;
+	margin-right: 2%;
+	margin-bottom: 1%;
+	margin-left: 2%;
+}
+#notizie .col3 {
+	width: 28%;
+	text-align: left;
+	padding: 0px;
+	float:left;
+	line-height: normal;
+	margin-top: 1%;
+	margin-right: 2%;
+	margin-bottom: 1%;
+	margin-left: 2%;
+}
+
+
+#indirizzo {
+	width: 99%;
+	text-align: left;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 1%;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 1%;
+	margin-top: 0px;
+	bottom: 0px;
+	font-size: 70%;
+	background-color: #000;
+	line-height: 85%;
+	color: #999;
+	height: 3%;
+	position: absolute;
+}
+
+
+/* menu */
+#menu {
+	width: 30%;
+	float:right;
+	color:#000;
+	text-align:right;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0;
+	padding-right: 0%;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+#lingue {
+	width: 55%;
+	height: 69px;
+	float:right;
+	background:#fff;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 3%;
+	padding-right: 5%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+}
+#lingue a {
+	color:#000;
+	text-decoration: none;
+}
+#lingue a:hover {
+	color:#333;
+	text-decoration:underline;
+}
+
+#header {
+	width: 100%;
+	float:right;
+	background:#fff;
+	text-align: right;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+#header img {
+}
+	
+/* sidebar menu */
+
+#sidemenu {
+	width: 55%;
+	float:right;
+	background:#fff;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 3%;
+	padding-right: 5%;
+	padding-bottom: 10%;
+	padding-left: 3%;
+}
+#sidemenu p {
+	font-size:10px;
+	color:#333;
+}
+#sidemenu p a {
+	font-size:10px;
+	color:#333;
+}
+
+ul.sidemenu {
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+ul.sidemenu li {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	font-size:110%;
+	line-height: 200%;
+}
+ul.sidemenu li a {
+	text-decoration: none;
+	background-image: none;
+	background-color: transparent;
+	border: none;
+	color: #000;
+}
+ul.sidemenu li a span {
+	color: #333;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 95%;
+	line-height: 100%;
+}
+ul.sidemenu li a:hover {
+	color: #666;
+	background: none;
+	text-decoration: underline;
+}
+ul.sidemenu li.attivo {
+	font-weight: bold;
+}
+
+/* trasparenza */
+
+.transparent {
+	/* Required for IE 5, 6, 7 */
+        /* ...or something to trigger hasLayout, like zoom: 1; */
+        zoom: 1;
+	/* Theoretically for IE 8 & 9 (more valid) */
+        /* ...but not required as filter works too */
+        /* should come BEFORE filter */
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	/* This works in IE 8 & 9 too */
+        /* ... but also 5, 6, 7 */
+        filter: alpha(opacity=5);
+	/* Older than Firefox 0.9 */
+        -moz-opacity:0.5;
+	/* Modern!
+        /* Firefox 0.9+, Safari 2?, Chrome any?
+        /* Opera 9+, IE 9+ */
+        opacity: 0.5;
+	padding-left: 20px;
+}
+.transparent2 {
+        /* Required for IE 5, 6, 7 */
+        /* ...or something to trigger hasLayout, like zoom: 1; */
+        zoom: 1; 
+
+        /* Theoretically for IE 8 & 9 (more valid) */
+        /* ...but not required as filter works too */
+        /* should come BEFORE filter */
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+        /* This works in IE 8 & 9 too */
+        /* ... but also 5, 6, 7 */
+        filter: alpha(opacity=90);
+
+        /* Older than Firefox 0.9 */
+        -moz-opacity:0.9;
+
+        /* Modern!
+        /* Firefox 0.9+, Safari 2?, Chrome any?
+        /* Opera 9+, IE 9+ */
+        opacity: 0.9;
+}
+
+#supersized img {
+        /* Required for IE 5, 6, 7 */
+        /* ...or something to trigger hasLayout, like zoom: 1; */
+        zoom: 1; 
+
+        /* Theoretically for IE 8 & 9 (more valid) */
+        /* ...but not required as filter works too */
+        /* should come BEFORE filter */
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+
+        /* This works in IE 8 & 9 too */
+        /* ... but also 5, 6, 7 */
+        filter: alpha(opacity=80);
+
+        /* Older than Firefox 0.9 */
+        -moz-opacity:0.80;
+
+        /* Modern!
+        /* Firefox 0.9+, Safari 2?, Chrome any?
+        /* Opera 9+, IE 9+ */
+        opacity: 0.80;
+}
+
+/* varie */
+#dida {
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:1000;
+	}
+.data {
+	text-align: right;
+	font-size: 11px;
+	padding-bottom: 5px;
+	margin: 0px;
+	color: #999;
+	clear: both;
+	font-style: italic;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333;
+}

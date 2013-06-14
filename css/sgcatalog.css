@@ -1,0 +1,107 @@
+#sgCatalog h2 {
+text-transform:uppercase;
+}
+
+#sgCatalog img {
+    border: 5px solid #343434;
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#sgCatalog .left {
+    float: left;
+    margin-bottom: 0px;
+    clear: right;
+    margin-top: 0px;
+    width: 290px;
+    padding: 10px;
+}
+
+#sgCatalog .right {
+    text-align: left;
+    float: right;
+    margin-bottom: 0px;
+    clear: right;
+    margin-top: 0px;
+    width: 290px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#sgCatalog form {
+    display: block;
+    line-height: 1.6em;
+    margin-bottom: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    padding: 0px;
+    height: auto;
+    background:none;
+}
+
+/* #sgCatalog input {
+	border: 1px solid #999999;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	margin-left: 5px;
+	padding: 0px;
+	line-height: 20px;
+}
+*/
+
+
+#sgCatalog .prodotti {
+    height: 210px;
+    margin-bottom: 10px;
+}
+
+#sgCatalog .descr {
+    width: 100%;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+/* 
+ * tabella carrello 
+ */
+table.sgChart {
+	width: 98%;
+	margin-left: 15px;
+	margin-right: 20px;
+}
+table.sgChart tr th {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	text-align:center;
+	color: #846E52;
+	font-weight:normal;
+	line-height: 30px;
+}
+table.sgChart tr td {
+	border-bottom: 1px solid #303030;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+table.sgChart tr td.price {text-align: right;}
+table.sgChart tr td.total {font-weight: bold;}
+/* riga bottoni */
+table.sgChart tr td.tdBtn {padding: 5px; border-bottom: none;}
+
+
+#sgCatalog .colore{
+color: #846E52;
+font-weight:normal;
+font-size:14px;
+}

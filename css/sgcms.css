@@ -1,0 +1,81 @@
+#sgcms h3.noNews {
+    margin-top: 20px;
+}
+
+#sgcms h3 {
+}
+
+
+#sgcms div.news {
+}
+#sgcms div.images {
+    float: right;
+    clear: both;
+}
+#sgcms div.images a {
+    text-decoration:none;
+}
+
+#sgcms img {
+	background-color:#fafafa;
+	margin:10px;
+	padding: 5px;
+	border: 1px solid #dcdcdc;
+}
+
+#sgcms div.data {
+	text-align: right;
+	font-size: 11px;
+	padding-bottom: 5px;
+	margin: 0px;
+	color: #999;
+	clear: both;
+	font-style: italic;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+
+#sgcms div.testo {
+    float: left;
+}
+
+#sgcms div.attacments {
+    float:left;
+    clear: both;
+    margin: 10px 0px 10px 0px;
+}
+#sgcms div.attachments a {
+}
+#sgcms p {
+}
+.error, .notice, .success, .nota {
+	border: 1px solid #DDD;
+	margin-bottom: 1em;
+	padding: 0.6em 0.8em;
+}
+
+.error {background: #FBE3E4; color: #8A1F11; border-color: #FBC2C4;}
+.error a {color: #8A1F11;}
+
+.notice {background: #FFF6BF; color: #514721; border-color: #FFD324;}
+.notice a {color: #514721;}
+
+.success {background: #E6EFC2; color: #264409; border-color: #C6D880;}
+.success a {color: #264409;}
+
+.nota {
+	color: #333;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	background-color: #F5F5F5;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 14px;
+	line-height: 22px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.nota a {color: #514721;}

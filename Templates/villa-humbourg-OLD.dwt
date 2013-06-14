@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Società Agricola - Produzione e Vendita Olio Extravergine di Oliva - Villa Humbourg - Certaldo - Firenze</title>
+<!-- TemplateEndEditable -->
+<meta name="description" content="Ci troviamo in Toscana, nel cuore d´Italia, nella parte meridionale della provincia di Firenze, in mezzo ad un paesaggio unico in Europa, fra dolci colline, coltivate dall´uomo da millenni, che offrono per posizione geografica, clima e natura del terreno condizioni ottimali  per la coltivazione dell’olivo." />
+<meta name="keywords" content="Villa Humbourg, Villa Humbourg società agricola, villa humbourg vendita olio, olio extravergine di oliva, società agricola firenze, coltivazione olio, olio d'oliva, produzione olio in toscano, vendita olio firenze, shop online olio extravergine di oliva, vendita olio toscano, shop on line olio, Coreggiolo, Frantoio, Pendolino, Leccino, olio extravergine di oliva Toscano, olio certificato, Indicazione Geografica Protetta, Consorzio Toscano, Consorzio Toscano per la tutela dell´olio extravergine, olio d'oliva certificato, produzione olio colline di firenze" />
+
+<meta name="author" content="S.G. Consulting Srl - www.sgconsulting.it" />
+<meta name="content engine" content="Content engine developed by S.G. Consulting Srl - www.sgconsulting.it" />
+<meta name="design" content="Design by S.G. Consulting Srl - www.sgconsulting.it" />
+
+<link href="../css/sgcms.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../js/s3slider.css" rel="stylesheet" type="text/css" media="all" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<link rel="stylesheet" href="../js/jquery.lightbox-0.5.css" />
+<script src="../js/jquery.lightbox-0.5.min.js"></script>
+<script src="../js/s3slider.js"></script>
+
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(document).ready(function () {
+    //zoom immagini
+    var imgs = jQuery("div[class='photo'] img");
+    var imgs2 = jQuery("div[class='photo2'] img");
+    imgs.each(function() {
+        var newEl = document.createElement("a");
+        newEl["href"]=this.src.replace("-S.", "-G.");
+        jQuery(this).wrap(newEl);
+    });
+    imgs2.each(function() {
+        var newEl = document.createElement("a");
+        newEl["href"]=this.src.replace("-S.", "-G.");
+        jQuery(this).wrap(newEl);
+    });
+    jQuery("div[class='photo'] a").lightBox({txtImage: 'Villa Humbourg - ', txtOf: '/'});
+    jQuery("div[class='photo2'] a").lightBox({txtImage: 'Villa Humbourg - ', txtOf: '/'});
+    jQuery('#s3slider').s3Slider({
+        timeOut: 7000
+    });
+});
+</script>
+<!-- TemplateBeginEditable name="Head" --> <!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../css/style.css" type="text/css" />
+</head>
+
+<body>
+
+<div id="content-outer">
+<div class="lingue"> 
+<div class="lingue_menu">
+<ul>
+			  <li><a href="../index.html">Ita</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+			  <li><a href="#">Eng</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+			  <li><a href="#">Deu</a></li>
+	      </ul>	
+          </div>
+          </div>
+<div id="content">
+
+<div id="top">	   
+  <div class="logo"><img src="../img/logo-villa-humbourg.png" alt="Panizzi" width="427" height="97" /></div>
+  <div id="menu-wrapper">
+    <ul>
+  <li><a href="../index.html" title="Home">HOME</a></li>|<li><a href="../italiano/villa-humbourg-societa-agricola.html" title="Azienda">AZIENDA</a></li>|<li><a href="../italiano/territorio-toscana-firenze.html" title="Territorio">TERRITORIO</a></li>|<li><a href="../italiano/olio-extravergine-di-oliva.html" title="Olio extravergine di oliva">olio</a></li>|<li><a href="../italiano/prodotto-olio-extravergine-di-oliva.html" title="Shop online">shop online</a></li>|<li><a href="../italiano/news.html" title="News">NEWS</a></li>|<li><a href="../italiano/gallery.html" title="Gallery">GALLERY</a></li>|<li><a href="../italiano/link.html" title="Link">LINK</a></li>|<li><a href="../italiano/dove-siamo.html" title="dove siamo">dove siamo</a></li>|<li><a href="../italiano/contatti.html" title="Contatti">CONTATTI</a></li>
+      </ul>
+  <div class="clear"></div>
+  </div>
+</div>
+<div id="header-flash">
+<!--PARTE DEDICATA ALLE IMMAGINI-->
+<div id="s3slider">
+  <ul id="s3sliderContent">
+    <li class="s3sliderImage"> <img src="../img/header-villa-humbourg-1.jpg" alt="Europa" width="875" height="322" /> 
+    <span>TERRITORIO<br />
+      <br />
+      Ci troviamo in Toscana, nel cuore d´Italia, nella parte meridionale della provincia di Firenze, in mezzo ad un paesaggio unico in Europa, fra dolci colline, coltivate dall´uomo da millenni, che offrono per posizione geografica, clima e natura del terreno condizioni ottimali  per la coltivazione dell´olivo. </span> </li>
+    <li class="s3sliderImage"> <img src="../img/header-villa-humbourg-2.jpg" alt="Europa" width="866" height="322" /> 
+    <span>VILLA HUMBOURG SOCIETA' AGRICOLA<br />
+      <br />
+      La sede della nostra azienda è una villa antica, abitata fin dal Medioevo, che il nostro antenato Cavaliere Alessandro Humbourg, funzionario e ministro del Granduca di Toscana, ha scelto dalla  seconda metà del ‘700 come residenza di campagna.</span> </li>
+    <li class="s3sliderImage"> <img src="../img/header-villa-humbourg-3.jpg" alt="Europa" width="866" height="322" /> 
+    <span>OLIO<br />
+      <br />
+      I nostri ulivi appartengono alle specie piu´tipiche presenti in Toscana, Coreggiolo, Frantoio, Pendolino e Leccino.<br />
+      Il nostro olio e´certificato come olio extravergine di oliva Toscano, cio´garantisce l´origine del prodotto, che proviene esclusivamente dalle "Colline di Firenze".</span> </li>
+    <li class="s3sliderImage"> <img src="../img/header-villa-humbourg-3.jpg" alt="Europa" width="866" height="322" /> 
+    <span>OLIO<br />
+      <br />
+      I nostri ulivi appartengono alle specie piu´tipiche presenti in Toscana, Coreggiolo, Frantoio, Pendolino e Leccino.<br />
+      Il nostro olio e´certificato come olio extravergine di oliva Toscano, cio´garantisce l´origine del prodotto, che proviene esclusivamente dalle "Colline di Firenze".</span> </li>
+  </ul>
+</div>
+</div>
+<div class="clearer"></div>
+
+
+
+<!-- TemplateBeginEditable name="contentarea" -->
+<div id="content-wrapper">
+	  [<a href="#"><strong>vedi tutti i prodotti</strong></a>] 
+   </div>
+   <div class="centralbig">
+   <h1>News</h1>
+   <h2>titolo</h2>
+   <p>&nbsp;</p>
+   <h3><a href="#">Vendemmia 2010</a></h3>
+   <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non arcu nunc. Fusce in condimentum nisl. Praesent non tortor sed mi tristique hendrerit vitae eu sapien. Cras dapibus adipiscing tellus, viverra tincidunt erat commodo in. Pellentesque habitant morbi tristique [<a href="#">...</a>] </p>
+   <p class="postmeta">Pubblicato il 3 dicembre 2010</p>
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>
+   <h3><a href="#">Vendemmia 2010</a></h3>
+   <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non arcu nunc. Fusce in condimentum nisl. Praesent non tortor sed mi tristique hendrerit vitae eu sapien. Cras dapibus adipiscing tellus, viverra tincidunt erat commodo in. Pellentesque habitant morbi tristique [<a href="#">...</a>] </p>
+   <p class="postmeta">Pubblicato il 3 dicembre 2010</p>
+   <div class="riga"></div><div class="riga"></div>
+   </div>
+<div class="clearer"></div>
+<!-- TemplateEndEditable -->
+</div>
+
+</div>
+
+<div id="footer-wrapper">
+<div class="col-one-foot">VILLA HUMBOURG Società Agricola a responsabilità limitata - P.I. e C.F 06095720485 - REA FI 599907 - Cap. Soc. 20.000,00 i.v.<br />
+Via Bagnano, 205 - 50052 Certaldo (FIRENZE) - Toscana - Italy - Tel. 0571 660026 - email: <a href="mailto:info@villahumbourg.it">info@villahumbourg.it</a><br />
+  <div class="sg"><br />
+    <em>design by</em> <a href="http://www.sgconsulting.it/" target="_blank">S.G. Consulting</a></div>
+</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1964565-31']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+
+</html>
