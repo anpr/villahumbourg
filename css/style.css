@@ -358,10 +358,6 @@ height:12px;
 	background-repeat:repeat;
 }
 
-#content {
-	width: 945px;
-	margin: 0 auto;
-}
 #header-wrap {
 	position: relative;
 	width: 915px;
@@ -409,6 +405,10 @@ height:12px;
 	text-align:center;
 }
 
+#content {
+    width: 945px;
+    margin: 0 auto;
+}
 
 #content-wrapper {
 	width: 875px;
