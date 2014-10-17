@@ -632,6 +632,10 @@ height:12px;
 	margin-bottom: 30px;
 }
 	
+#sottomenu-above-wrapper {
+    padding-top:15px;
+}
+
 #sottomenu-wrapper ul{
 	display:inline;
 	list-style-type: none;
