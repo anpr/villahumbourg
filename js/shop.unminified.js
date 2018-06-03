@@ -29,15 +29,15 @@ var shop = function () {
     }
     var importo = function (qta) {
         if (qta < 6) {
-            return 11.2
+            return 9.9
         } else {
             if (qta < 12) {
-                return 11.2
+                return 9.9
             } else {
                 if (qta < 24) {
-                    return 11.2
+                    return 9.9
                 } else {
-                    return 11.2
+                    return 9.9
                 }
             }
         }
