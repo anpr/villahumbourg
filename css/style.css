@@ -59,7 +59,7 @@ h2 {
 	font: 1.6em;
 	font-weight: normal;
 	margin-bottom:18px;
-	border-bottom-width: 1px;
+	border-bottom-width: 0px;
 	border-bottom-style: solid;
 	border-bottom-color: #Ebebeb;
 }
@@ -240,7 +240,7 @@ input, select {
 	background-color:#EBEBEB;
 }
 textarea {
-	width: 770px;
+	width: 870px;
 	padding: 4px;
 	font: normal 12px Arial, sans-serif;
 	height: 100px;
@@ -360,7 +360,7 @@ height:12px;
 
 #header-wrap {
 	position: relative;
-	width: 915px;
+	width: 1015px;
 	text-align: right;
 	padding-right: 20px;
 	padding-left: 20px;
@@ -368,7 +368,7 @@ height:12px;
 
 #header-wrap2 {
 	position: relative;
-	width: 967px;
+	width: 1067px;
 	height: 125px;
 	text-align: right;
 }
@@ -406,12 +406,12 @@ height:12px;
 }
 
 #content {
-    width: 945px;
+    width: 1045px;
     margin: 0 auto;
 }
 
 #content-wrapper {
-	width: 875px;
+	width: 975px;
 	text-align: left;
 	top:auto;
 	padding-top:25px;
@@ -430,7 +430,7 @@ height:12px;
 
 .col-one-content {
 	padding-left: 18px;
-	width: 450px;
+	width: 500px;
 	float: left;
 	margin-top: 5px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -443,7 +443,7 @@ height:12px;
 	padding-right:38px;
 }
 .col-two-content {
-	width: 430px;
+	width: 470px;
 	float: right;
 	padding-right: 18px;
 	margin-top: 5px;
@@ -453,14 +453,14 @@ height:12px;
 
 .left {
 	float: left;
-	width:284px;
+	width:384px;
 	padding-left:0px;
 	text-align:center;
 }
 
 .leftbig {
 	float: left;
-	width:560px;
+	width:660px;
 	padding-left:33px;
 	margin-top: 0px;
 }
@@ -478,8 +478,8 @@ height:12px;
 }
 
 .centralbig {
-	width:875px;
-	margin-left: 35px;
+	width:880px;
+	margin-left: 85px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -499,14 +499,14 @@ height:12px;
 
 .right {
 	float: right;
-	width:612px;
+	width:712px;
 	padding-right: 0px;
 	margin-top: 0px;
 }
 
 .smallright {
 	float: right;
-	width:270px;
+	width:370px;
 	padding-right: 0px;
 	margin-top: 0px;
 	text-align:right;
@@ -516,20 +516,20 @@ height:12px;
 
 .logo {
 	padding: 0;
-	width: 574px;
+	width: 674px;
 	float:left;
 	text-align:left;
 	margin-top: 0;
 	margin-right: 0;
 	margin-bottom: 0;
-	margin-left: 35px;
+	margin-left: 80px;
 	height: 98px;
 }
 
 .stemma {
 	margin: 0;
 	padding: 0;
-	width: 190px;
+	width: 290px;
 	height:123px;
 	float:right;
 	text-align:center;
@@ -588,18 +588,21 @@ height:12px;
 	text-decoration: none;
 }
 
+.question {
+	margin-top: 0.5cm;
+}
 /*TOP MENU ITALIANO*/
 
 #menu-wrapper {
 	clear: both;
-	width: 875px;
+	width: 975px;
 	height: 40px;
 	padding-top:15px;
 	line-height:40px;
 	text-align: left;
 	margin-right: 35px;
-	margin-left: 28px;
-	border-bottom-width: 1px;
+	margin-left: 70px;
+	border-bottom-width: 0px;
 	border-bottom-style: solid;
 	border-bottom-color: #ebebeb;
 }
@@ -681,14 +684,14 @@ height:12px;
 
 #menu-wrapper2 {
 	clear: both;
-	width: 888px;
+	width: 988px;
 	height: 40px;
 	/*padding-top:15px; */
 	line-height:40px;
 	text-align: left;
 	margin-right: 22px;
 	margin-left: 30px;
-	border-bottom-width: 1px;
+	border-bottom-width: 0px;
 	border-bottom-style: solid;
 	border-bottom-color: #ebebeb;
 }
@@ -723,7 +726,7 @@ height:12px;
 }
 #sottomenu-wrapper2 {
 	clear: both;
-	width: 250px;
+	width: 350px;
 	height: 40px;
 	/*padding-top:15px; */
 	line-height:40px;
@@ -765,14 +768,14 @@ height:12px;
 
 #menu-wrapper {
 	clear: both;
-	width: 875px;
+	width: 975px;
 	height: 40px;
 	/*padding-top:15px; */
 	line-height:40px;
 	text-align: left;
 	margin-right: 35px;
-	margin-left: 28px;
-	border-bottom-width: 1px;
+	margin-left: 80px;
+	border-bottom-width: 0px;
 	border-bottom-style: solid;
 	border-bottom-color: #ebebeb;
 }
@@ -807,7 +810,7 @@ height:12px;
 }
 #sottomenu-wrapper3 {
 	clear: both;
-	width: 450px;
+	width: 550px;
 	height: 40px;
 	/*padding-top:15px; */
 	line-height:40px;
@@ -847,7 +850,7 @@ height:12px;
 }
 #sottomenu-wrapper4 {
 	clear: both;
-	width: 400px;
+	width: 500px;
 	height: 40px;
 	/*padding-top:15px; */
 	line-height:40px;
@@ -891,7 +894,7 @@ height:12px;
 	padding:1px;
 	padding-left:10px;
 	background-color:#E1E1E1;
-	width: 440px;
+	width: 540px;
 	border: 1px solid #CCCCCC;
 }
 #footer-wrapper {
@@ -1045,14 +1048,14 @@ td.bold {
 	position: relative; /* important */
 	overflow: hidden;
 	padding-top:28px;
-	width: 875px;
+	width: 975px;
 	margin-top: 0;
 	margin-right: 35px;
 	margin-bottom: 0;
 	margin-left: 35px;
 	padding-right: 0px;
 	padding-left: 0px;
-	border-bottom-width: 1px;
+	border-bottom-width: 0px;
 	border-bottom-style: solid;
 	border-bottom-color: #ebebeb;
 }
