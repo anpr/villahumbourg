@@ -28,29 +28,17 @@ var shop = function () {
         merchant = "pacini_1316599639_biz@sgconsulting.it"
     }
     var importo = function (qta) {
-        if (qta < 6) {
-            return 9.9
-        } else {
-            if (qta < 12) {
-                return 9.9
-            } else {
-                if (qta < 24) {
-                    return 9.9
-                } else {
-                    return 9.9
-                }
-            }
-        }
+        // Base price in euro for a single bottle
+        // Note that we could also make this dependent on `qta` (quantità), i.e. the number of ordered items.
+        return 11.7
     };
     var paesi = [];
     var spese = {
         "it|italia": [
-            [4, 8.65],
-            [9, 9.5],
-            [12, 10.6],
-            [20, 13.8],
-            [75, 30],
-            [100, 50]
+            [4, 10.50],
+            [7, 12.60],
+            [11, 14.20],
+            [14, 16.80]
         ],
         "at|austria": [
             [5, 10],
@@ -71,13 +59,10 @@ var shop = function () {
             [50, 30]
         ],
         "de|germany": [
-            [5, 10.65],
-            [9, 12],
-            [13, 13.4],
-            [20, 13.4],
-            [30, 20],
-            [40, 25],
-            [50, 30]
+            [4, 14.65],
+            [7, 18.00],
+            [11, 22.10],
+            [14, 26.00]
         ],
         "nl|netherlands": [
             [5, 11.65],
@@ -96,24 +81,18 @@ var shop = function () {
             [30, 21.5],
             [40, 24.5],
             [50, 27.5]
-       ],
+        ],
         "uk|united kingdom": [
-            [5, 40],
-            [9, 50],
-            [13, 55],
-            [20, 65],
-            [30, 70],
-            [40, 75],
-            [50, 80]
+            [4, 45.00],
+            [7, 56.00],
+            [11, 66.00],
+            [14, 71.50]
         ],
         "us/can|United States of America / Canada": [
-            [5, 60],
-            [9, 70],
-            [13, 80],
-            [20, 90],
-            [30, 105],
-            [40, 117],
-            [50, 140]
+            [4, 70.00],
+            [7, 80.00],
+            [11, 90.00],
+            [14, 105.00]
         ],
     };
     var carrello = {
@@ -233,6 +212,11 @@ var shop = function () {
         if (isNaN(qta)) {
             jQuery("#errorQta").html(errorQta(lang));
             return
+        }
+        // This code reflects the case that currently you can only choose to ship up 12 bottles anyway.
+        if (qta > 12) {
+            jQuery("#errorQta").html(errorImpossibileSpedire(lang));
+            return;
         }
         carrello.qta = qta;
         var prUnitario = carrello.importo_unitario(qta);
